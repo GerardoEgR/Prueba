@@ -1,0 +1,111 @@
+*{margin:0; padding: 0;}
+
+header{
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, Sans-serif;
+    text-align: center;
+    background: #282E2D;
+}
+
+#nab{
+    width: 100%;
+    height: 350px;
+    background: url(1.jpg);
+    background-size: 100% 350px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 6px #000;
+}
+
+#principal{
+  width: 98%;
+  height: 500px;
+  background: #282E2D;
+}
+
+nav a{
+  text-decoration:none;
+  color:inherit;
+  font-size:14px;
+  } 
+  nav li{
+  display:inline-block;
+  width:10%;
+  padding:5px 10px;
+  background-color:#000;
+  border:1px solid #000;
+  text-align:center;
+  color:#fff;
+  }
+
+
+#parrafo1{
+    margin: auto;
+    background: #282E2D;
+    display: inline-block;
+    width: 48%;
+    height: 500px;
+}
+
+h2{
+    color: #959998;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#justificado{
+    color: #959998;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#justificado2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #959998;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+footer{
+  background: #323B3B;
+  width: 98%;
+  height: 30px;
+  margin: auto;
+  clear: both;
+  box-shadow: 1px 2px 1px 2px #000;
+  padding-top: 10px;
+  border-radius: 3px;
+
+}
+
+#derechos{
+  color: #959998;
+  padding-bottom: 10px;
+}
